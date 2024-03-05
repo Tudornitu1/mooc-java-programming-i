@@ -14,7 +14,6 @@ public class Main {
             week = week + 1;
         }
     
-    
         System.out.println("The date after 790 days from the examined Friday is ... try it out yourself!");
         System.out.println("Try " + date.afterNumberOfDays(790));
     }

@@ -7,5 +7,6 @@ public class MainProgram {
         Money firstMinusSecond = firstMoneyObject.minus(secondMoneyObject);
         System.out.println(firstMinusSecond.cents()); 
         System.out.println(firstMinusSecond);
+        
     }
 }
