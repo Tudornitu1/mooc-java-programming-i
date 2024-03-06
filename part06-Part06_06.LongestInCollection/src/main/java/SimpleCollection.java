@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.ArrayList;
 
 public class SimpleCollection {
 
@@ -17,6 +18,20 @@ public class SimpleCollection {
 
     public ArrayList<String> getElements() {
         return this.elements;
+    }
+    public String longest() {
+        if(this.elements.isEmpty()){
+            return null;
+        }
+
+        String longest=this.elements.get(0);
+        for(String elem: elements){
+            if(longest.length()<elem.length()){
+                longest=elem;
+            }
+        }
+
+        return longest; 
     }
 
 }
