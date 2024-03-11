@@ -25,7 +25,7 @@ public class Timer {
         } else if(this.seconds<10){
             return "0"+this.seconds+":"+this.hundreds;
         }
-         else {
+        else {
             return this.seconds+":"+this.hundreds;
         }
     }
